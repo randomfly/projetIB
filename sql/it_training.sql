@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mar. 20 avr. 2021 à 20:43
+-- Généré le :  jeu. 29 avr. 2021 à 08:37
 -- Version du serveur :  5.7.26
 -- Version de PHP :  7.2.18
 
@@ -168,6 +168,8 @@ DROP TABLE IF EXISTS `tbl_session`;
 CREATE TABLE IF NOT EXISTS `tbl_session` (
   `pk_session` int(11) NOT NULL AUTO_INCREMENT,
   `fk_session_trainer` int(11) NOT NULL,
+  `fk_session_course` int(11) NOT NULL,
+  `fk_session_theme` int(11) NOT NULL,
   `is_remote` tinyint(1) NOT NULL,
   `room` int(11) NOT NULL,
   `start` date NOT NULL,
