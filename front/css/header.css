@@ -1,0 +1,70 @@
+header {
+	
+}
+header nav {
+	position: relative;
+}
+header nav ul li img {
+	height: 8em;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+header nav ul li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 1em 2em;
+  text-decoration: none;
+}
+
+header nav ul li.search {
+	padding-top: .8em;
+}
+
+header nav ul li .search input, button {
+	border: 1px solid #f0cbaa;
+}
+
+
+
+header nav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ecececd6;
+  text-decoration: none;
+}
+
+header nav .dropdown {
+  display: inline-block;
+}
+
+header nav .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 145px;
+  z-index: 10;
+}
+
+header nav .dropdown-content a {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: #f1f1f1;
+  z-index: 10;
+}
+
+header nav .dropdown-content a:hover {background-color: #c5c5c5;}
+
+header nav .dropdown:hover .dropdown-content {
+  display: block;
+}

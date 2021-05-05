@@ -1,0 +1,77 @@
+/********************* BODY **********************/
+/********************* MAIN **********************/
+/********************* Left Content **********************/
+aside {
+	float : left;
+}
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
+  
+  padding: 1em;
+  border: solid;
+}
+/********************* Index **********************/
+#carousselit{
+  width:70%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  }
+  #indexContent{
+      margin-left: 2%;
+      margin-right: 2%;
+  }
+  article{
+      background-color:sienna;
+      padding: 2%;
+  }
+  #indexContent>div{
+      margin-top: 5%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  #indexVideo{
+    display: flex;
+  }
+  #indexVideo>p{
+      padding: 2%;
+      border:2px dashed black;
+      margin-left: 2%;
+  }
+
+  /********************* Formation **********************/
+
+  h1{
+    color:orangered;
+  }
+  #resum{
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .col img{
+    width: 400px;
+    height: 300px;
+    padding-top: 10%;
+  }
+  #media{
+    text-align: center;
+  }
+  .col #media iframe{
+    padding-top: 10%;
+  }
+   #formationContent div section{
+    background-color:sienna;
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+  #formationContent div section h2{
+  color:orangered;
+  }

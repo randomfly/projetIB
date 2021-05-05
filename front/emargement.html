@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="developpement,web,programation,formation,management,certification,professionnelle,big data,informatique,cybersecurite,SAP,POE,metiers">
+    <meta name="description" content="IT training est un centre de formation professionnelle, 
+                                    nous formons aux métiers de l'IT et accompagnons les entereprises dans leurs développements.
+                                    Certifications, formations techniques et soft-skills.">
+    <title>Accueil IT-Training</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.jpeg" alt="logo IT-Training">
+        <h1>IT-Training</h1>
+        <a href="connexion.html">Connexion</a>
+        <input type="search" id="site-search" name="search" placeholder='Recherche' aria-label="Rechercher du contenu sur le site">
+        <button type="submit">Go</button>
+
+        <nav>
+            <a href="index.html">Accueuil</a>
+            <a href="formation.html">Formations</a>
+            <a href="emargement.html">Emargement</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+       <form action="" method="post">
+           <fieldset>
+               <legend>EMARGEMENT</legend>
+               <input type="text" name="sessionNum" id="sessionNum" placeholder='n° de session' required>
+               <input type="date" name="sessionDate" id="sessionDate" required>
+               <canvas id='signature' width="400px" height="400px" style="border-style: solid;"></canvas>
+               <button type="submit">Effacer</button>
+               <button type="submit">Envoyer</button>
+           </fieldset>
+       </form>
+    </main>
+    <footer>
+        <nav>
+            <a href="index.html">Accueuil</a>
+            <a href="formation.html">Formations</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div>
+            Certifications
+        </div>
+        <div>
+            Partenaires
+        </div>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>

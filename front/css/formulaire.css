@@ -1,0 +1,66 @@
+/*signature*/
+canvas{
+    background-color: gray;
+}
+
+input.emarg{
+    font-size: 15px;
+}
+
+fieldset {
+    display: table;
+    padding-bottom: 200px;
+}
+
+fieldset label {
+    display: table-cell;
+}
+
+
+/*connection*/
+.ident{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+    padding-bottom: 50px;
+}
+
+div.login label:after{
+    content: ":";
+}
+
+.ident label{
+    display: block;
+    float: left;
+    text-align: right;
+    width: 150px;
+}
+
+/*signature+connection*/
+button {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: yellow;
+}
+
+legend{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    margin: auto;
+}
+
+.fields {
+    width: 60%;
+    margin: auto;
+}
